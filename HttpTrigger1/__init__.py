@@ -17,7 +17,7 @@ def main(req: func.HttpRequest) -> func.HttpResponse:
 
     if name:
         if name == '75542e38-563f-436f-adeb-f426f1dabb5c':
-            return func.HttpResponse(f"The product name for your product id {name} is Starfruit Explosion and the description is This starfruit ice cream is out of this world!")
+            return func.HttpResponse(f"dale dale product name for your product id {name} is Starfruit Explosion and the description is This starfruit ice cream is out of this world!")
         else:
             return func.HttpResponse(f"The product not found")
     else:
